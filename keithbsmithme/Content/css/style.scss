@@ -1,0 +1,14 @@
+﻿body, html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  grid-template:
+    'header' 80px
+    'content' auto
+    'footer' 60px
+    / auto;
+}
